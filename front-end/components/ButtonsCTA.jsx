@@ -5,7 +5,7 @@ export default function ButtonsCTA({
   title1 = "Reserve",
   title2 = "Explore",
   link1 = "https://api.whatsapp.com/send?phone=5548999870064",
-  link2 = "/accomodations",
+  link2 = "/accommodations",
 }) {
   return (
     <>

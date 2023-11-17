@@ -30,7 +30,9 @@ export default function DrawerNav() {
         placement="right"
       >
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-[#4a6d73] font-semibold text-xl hover:tracking-widest cursor-pointer duration-500">POUSADA 7 VIDAS</h2>
+          <h2 className="text-[#4a6d73] font-semibold text-xl hover:tracking-widest cursor-pointer duration-500">
+            POUSADA 7 VIDAS
+          </h2>
           <IconButton
             variant="text"
             color="teal"
@@ -57,24 +59,28 @@ export default function DrawerNav() {
           <Link
             href="/"
             className="hover:scale-110 hover:font-semibold transition  duration-500 hover:translate-x-6 "
+            onClick={closeDrawer}
           >
             Home
           </Link>
           <Link
             href="/about"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
+            onClick={closeDrawer}
           >
             Sobre
           </Link>
           <Link
             href="/accommodations"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
+            onClick={closeDrawer}
           >
             Acomodações
           </Link>
           <Link
             href="/about/#contact"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
+            onClick={closeDrawer}
           >
             Contato
           </Link>

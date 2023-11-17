@@ -7,7 +7,7 @@ export default function FeatureSection() {
     <section className="px-5 lg:px-10 xl:px-20 mt-16 lg:mt-28">
       <div className="flex flex-col lg:flex-row items-center gap-6 text-[#324b50]">
         <h2 className="lg:w-1/2 text-4xl  lg:text-5xl">
-          Desfrute de um luxo inconparável na <b>Pousada 7 Vidas</b>
+          Desfrute de um prazer inconparável na <b>Pousada 7 Vidas</b>
         </h2>
         <p className="text-xl lg:text-2xl leading-tight hyphens-auto lg:w-1/2">
           Descubra um mundo de relaxamento e renovação em nosso spa requintado.
