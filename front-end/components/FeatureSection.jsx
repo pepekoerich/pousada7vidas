@@ -10,7 +10,7 @@ export default function FeatureSection() {
           Desfrute de um prazer inconparável na <b>Pousada 7 Vidas</b>
         </h2>
         <p className="text-xl lg:text-2xl leading-tight hyphens-auto lg:w-1/2">
-          Descubra um mundo de relaxamento e renovação em nosso spa requintado.
+          Descubra um mundo de relaxamento e renovação em nosso espaço.
           Delicie-se com opções gastronômicas deliciosas elaboradas por nossos
           talentosos chefs. Participe de emocionantes atividades recreativas que
           proporcionarão memórias inesquecíveis.

@@ -21,11 +21,11 @@ export default function PricingCard() {
     <div className="p-4 border border-[#324b50] mt-10 lg:mt-0 text-[#324b50]">
       <div className="flex justify-between items-center border-b-2 border-[#324b50] pb-5">
         <div>
-          <h3 className="lg:text-4xl font-semibold text-3xl">Pernoite</h3>
-          <p className="lg:text-xl text-lg">Começando em R$375/noite</p>
+          <h3 className="lg:text-4xl font-semibold text-3xl">Via Site</h3>
+          <p className="lg:text-xl text-lg">Começando em R$355/noite</p>
         </div>
         <div>
-          <h2 className="lg:text-5xl font-bold text-3xl">R$375/noite</h2>
+          <h2 className="lg:text-5xl font-bold text-3xl">R$355/noite</h2>
         </div>
       </div>
       <p className="text-xl mb-3 font-semibold mt-4">Está incluído:</p>
@@ -76,7 +76,10 @@ export default function PricingCard() {
         </ul>
       </div>
       <div className="mt-5 flex justify-center">
-        <Link href={"https://api.whatsapp.com/send?phone=5548999870064"} target="_blank">
+        <Link
+          href={"https://api.whatsapp.com/send?phone=5548999870064"}
+          target="_blank"
+        >
           <button className=" text-xl lg:text-2xl px-2 py-1 bg-[#324b50] text-[#EAE7D6] font-semibold tracking-widest hover:scale-105 shadow-lg transition duration-500">
             Reservar
           </button>

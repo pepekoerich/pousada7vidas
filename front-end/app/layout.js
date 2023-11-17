@@ -9,8 +9,17 @@ const josefin = Josefin_Slab({
 });
 
 export const metadata = {
-  title: "Pousada 7 Vidas",
-  description: "Seja bem vindo a Pousada 7 Vidas",
+  title: "Pousada 7 Vidas - Lagoa de Ibiraquera",
+  description:
+    "Descubra a Pousada 7 Vidas na deslumbrante Lagoa de Ibiraquera. Conforto, natureza e tranquilidade em um só lugar.",
+  image: "/foto28",
+  url: "https://pousada7vidas.com.br",
+  type: "website",
+  twitterCard: "/foto28",
+  twitterTitle: "Pousada 7 Vidas - Lagoa de Ibiraquera",
+  twitterDescription:
+    "Descubra a Pousada 7 Vidas na deslumbrante Lagoa de Ibiraquera. Conforto, natureza e tranquilidade em um só lugar.",
+  twitterImage: "/foto28",
 };
 
 export default function RootLayout({ children }) {
