@@ -76,9 +76,10 @@ export default function Footer() {
           </Link>
         </nav>
       </div>
-      <div className="flex flex-col justify-center items-center gap-3 py-5 md:flex-row md:justify-around md:text-lg text-[#324b50]">
-        <p>Pousada 7 Vidas - Praia do Rosa, Imbituba - SC</p>
+      <div className="flex flex-col justify-center items-center gap-3 py-5 md:flex-row md:justify-around text-lg md:text-xl text-[#324b50]">
+        <small>Pousada 7 Vidas - Lagoa de Ibiraquera, Imbituba - SC</small>
         <small>© 2023 Pousada 7 Vidas. Todos os direitos reservados.</small>
+        <small>Site desenvolvido por <Link href={"https://portfoliopedrokoerich.vercel.app"} target="blank" className="font-bold underline">PKDesign</Link></small>
       </div>
     </footer>
   );

@@ -26,6 +26,7 @@ export default function PricingCard() {
         </div>
         <div>
           <h2 className="lg:text-5xl font-bold text-3xl">R$355/noite</h2>
+          <small></small>
         </div>
       </div>
       <p className="text-xl mb-3 font-semibold mt-4">Está incluído:</p>

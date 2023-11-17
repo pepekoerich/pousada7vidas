@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Carousel, Typography, Avatar, Rating } from "@material-tailwind/react";
+import { Carousel } from "@material-tailwind/react";
 import CarouselIndividual from "./CarouselIndividual";
 
 export default function CarouselTestimonial({}) {
@@ -17,7 +17,7 @@ export default function CarouselTestimonial({}) {
           "https://a0.muscache.com/im/pictures/user/37baa2e2-70a3-484d-b8f2-f07456c884bb.jpg?im_w=240"
         }
         comment={
-          "O café da manhã é a parte, e vale a pena, saboroso, bem servido e feito na hora. Passamos dias tranquilos, amamos o lugar, com certeza voltaremos mais vezes!"
+          "O café da manhã é a parte que vale a pena, saboroso, bem servido e feito na hora. Passamos dias tranquilos, amamos o lugar, com certeza voltaremos mais vezes!"
         }
         name={"Cristine"}
       />

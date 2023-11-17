@@ -33,16 +33,18 @@ const Rooms = () => {
     {
       name: "Siamês - Suíte 1",
       description:
-        "Quarto espaçoso com vista para o jardim. Um ótimo lugar para relaxar e aproveitar a natureza.",
+        "Suíte no piso térreo super aconchegante e confortável. Para aqueles que gostam de estar perto da piscina. ",
+
       images: ["q2f1.jpeg", "q2f2.jpeg", "q2f3.jpeg", "q2f4.jpeg"],
-      link: "https://www.airbnb.com.br/rooms/47118702?source_impression_id=p3_1700100745_LjseJi2ckHG2mOQa",
+
+      link: "https://www.airbnb.com.br/rooms/538939990207815494?source_impression_id=p3_1700100745_Ys%2Bl5%2F0mTXTwaBwM",
     },
     {
       name: "Angorá - Suíte 2",
       description:
-        "Suíte no piso térreo super aconchegante e confortável. Para aqueles que gostam de estar perto da piscina. ",
+        "Quarto espaçoso com vista para o jardim. Um ótimo lugar para relaxar e aproveitar a natureza.",
       images: ["q1f1.jpeg", "q1f2.jpeg", "q1f3.jpeg", "q1f4.jpeg"],
-      link: "https://www.airbnb.com.br/rooms/538939990207815494?source_impression_id=p3_1700100745_Ys%2Bl5%2F0mTXTwaBwM",
+      link: "https://www.airbnb.com.br/rooms/47118702?source_impression_id=p3_1700100745_LjseJi2ckHG2mOQa",
     },
     {
       name: "Persa - Suíte 3",
@@ -91,14 +93,25 @@ const Rooms = () => {
               <h3 className="text-3xl font-bold mb-2">{room.name}</h3>
               <p className="mb-4 text-xl">{room.description}</p>
 
-              <Link
-                href={room.link || "#"}
-                target="_blank"
-                className="bg-[#EAE7D6] text-[#324b50] font-bold hover:scale-110  inline-flex transition duration-300 text-lg items-center py-2 px-2 shadow border border-[#324b50] shadow-[#eae7d6] gap-1"
-              >
-                Reserve Já
-                <FaAirbnb className="text-xl mb-1" />
-              </Link>
+              <div className="flex flex-col text-center gap-3 mb-4">
+                <Link
+                  href={room.link || "#"}
+                  target="_blank"
+                  className="bg-[#EAE7D6] text-[#324b50] font-bold hover:scale-110  transition duration-300 text-lg  py-2 px-2 shadow border border-[#324b50] shadow-[#eae7d6] gap-1"
+                >
+                  Reservas Airbnb
+                </Link>
+                <Link
+                  href={"https://api.whatsapp.com/send?phone=5548999870064"}
+                  target="_blank"
+                  className="bg-[#EAE7D6] text-[#324b50] font-bold hover:scale-110 transition duration-300 text-lg  py-2 px-2 shadow border border-[#324b50] shadow-[#eae7d6] gap-1"
+                >
+                  Reservas Whatsapp
+                </Link>
+              </div>
+              <small className=" lg:text-[15px] text-[13px] font-semibold tracking-wider">
+                * Reservas via WhatsApp possuem tarifa reduzida.
+              </small>
             </div>
           </div>
         ))}
