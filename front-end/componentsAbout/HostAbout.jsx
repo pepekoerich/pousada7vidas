@@ -29,7 +29,7 @@ export default function HostAbout() {
             amor.
           </p>{" "}
           <p className="mb-3">
-            Quem já passou por aqui, sabe o quanto esse espaço já nos
+            Quem já passou por aqui, sabe o quanto esse espaço já 
             proporcionou momentos inesquecíveis. E pra quem ainda não nos
             conhece, muito prazer, <b className="underline">Sandra e Grasi</b>!
             Estamos ansiosas esperando por todos vocês!

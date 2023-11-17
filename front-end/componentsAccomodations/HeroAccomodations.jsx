@@ -20,7 +20,7 @@ export default function HeroAccomodations() {
         <div className="text-[#324b50]">
           <h1 className="text-6xl font-bold">Descubra Sua Estadia</h1>
           <p className="mt-2 text-xl font-semibold tracking-wider ">
-            Experimente uma variedade de acomodações confortáveis e luxuosas na
+            Experimente o verdadeiro conforto na
             Pousada 7 Vidas.
           </p>
           <div className="gap-5 flex mt-10">

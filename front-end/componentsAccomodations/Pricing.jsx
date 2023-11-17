@@ -12,7 +12,7 @@ export default function Pricing() {
     {
       icon: <IoCarOutline className="h-8 w-8" />,
       title: "Estacionamento",
-      description: "Estacionamento gratuito para todos os hóspedes.",
+      description: "Estacionamento descoberto em frente a pousada.",
     },
     {
       icon: <CiForkAndKnife className="h-8 w-8" />,
@@ -27,7 +27,7 @@ export default function Pricing() {
     {
       icon: <PiSnowflakeThin className="h-8 w-8" />,
       title: "Ar Condicionado",
-      description: "Ar condicionado em todos os quartos.",
+      description: "Ar condicionado em todos os suítes.",
     },
     {
       icon: <PiTelevisionSimple className="h-8 w-8" />,

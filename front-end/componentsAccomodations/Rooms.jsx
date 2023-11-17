@@ -31,18 +31,18 @@ const Rooms = () => {
 
   const rooms = [
     {
-      name: "Angorá - Suíte 1",
-      description:
-        "Suíte no piso térreo super aconchegante e confortável. Para aqueles que gostam de estar perto da piscina. ",
-      images: ["q1f1.jpeg", "q1f2.jpeg", "q1f3.jpeg", "q1f4.jpeg"],
-      link: "https://www.airbnb.com.br/rooms/538939990207815494?source_impression_id=p3_1700100745_Ys%2Bl5%2F0mTXTwaBwM",
-    },
-    {
-      name: "Siamês - Suíte 2",
+      name: "Siamês - Suíte 1",
       description:
         "Quarto espaçoso com vista para o jardim. Um ótimo lugar para relaxar e aproveitar a natureza.",
       images: ["q2f1.jpeg", "q2f2.jpeg", "q2f3.jpeg", "q2f4.jpeg"],
       link: "https://www.airbnb.com.br/rooms/47118702?source_impression_id=p3_1700100745_LjseJi2ckHG2mOQa",
+    },
+    {
+      name: "Angorá - Suíte 2",
+      description:
+        "Suíte no piso térreo super aconchegante e confortável. Para aqueles que gostam de estar perto da piscina. ",
+      images: ["q1f1.jpeg", "q1f2.jpeg", "q1f3.jpeg", "q1f4.jpeg"],
+      link: "https://www.airbnb.com.br/rooms/538939990207815494?source_impression_id=p3_1700100745_Ys%2Bl5%2F0mTXTwaBwM",
     },
     {
       name: "Persa - Suíte 3",
@@ -54,7 +54,7 @@ const Rooms = () => {
     {
       name: "Sphynx - Suíte 4",
       description:
-        "Suíte no piso superior com vista para a piscina. Ideal para quem gosta de acordar com o sol.",
+        "Suíte no piso superior com vista para a piscina. Ideal para quem gosta de acordar com tranquilidade.",
       images: ["q4f1.jpeg", "q4f2.jpeg", "q4f3.jpeg", "q4f4.jpeg"],
       link: "https://www.airbnb.com.br/rooms/47138570?source_impression_id=p3_1700100745_tTvseG%2B61PAiGvC8",
     },
@@ -66,7 +66,10 @@ const Rooms = () => {
       <h2 className="text-5xl font-bold mb-3 text-center text-[#324b50]">
         Conheça Nossas Acomodações
       </h2>
-      <p className="text-center text-lg text-[#324b50] mb-6 lg:text-xl">Escolha sua suíte favorita e tenha os melhores momentos na Pousada 7 Vidas.</p>
+      <p className="text-center text-lg text-[#324b50] mb-6 lg:text-xl">
+        Escolha sua suíte favorita e tenha os melhores momentos na Pousada 7
+        Vidas.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {rooms.map((room, index) => (
           <div
@@ -87,16 +90,15 @@ const Rooms = () => {
             <div className="p-4 text-[#EAE7D6]">
               <h3 className="text-3xl font-bold mb-2">{room.name}</h3>
               <p className="mb-4 text-xl">{room.description}</p>
-             
-                <Link
-                  href={room.link || "#"}
-                  className="bg-[#EAE7D6] text-[#324b50] font-bold hover:scale-110  inline-flex transition duration-300 text-lg items-center py-2 px-2 shadow border border-[#324b50] shadow-[#eae7d6] gap-1"
-                >
-                  Reserve Já
-                  <FaAirbnb className="text-xl mb-1" />
-                </Link>
-                
-           
+
+              <Link
+                href={room.link || "#"}
+                target="_blank"
+                className="bg-[#EAE7D6] text-[#324b50] font-bold hover:scale-110  inline-flex transition duration-300 text-lg items-center py-2 px-2 shadow border border-[#324b50] shadow-[#eae7d6] gap-1"
+              >
+                Reserve Já
+                <FaAirbnb className="text-xl mb-1" />
+              </Link>
             </div>
           </div>
         ))}

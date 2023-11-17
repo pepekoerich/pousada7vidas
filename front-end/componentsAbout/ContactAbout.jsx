@@ -31,8 +31,8 @@ export default function ContactAbout() {
           <FaPhone />
           <h3 className="font-bold mt-1">Telefone</h3>
         </div>
-        <Link href={"phoneto:+5548991121350"} className="underline text-xl lg:text-2xl">
-          +55 48 99140-9572
+        <Link href={""} className="underline text-xl lg:text-2xl">
+          +55 48 99987-0064
         </Link>
       </div>
     </section>

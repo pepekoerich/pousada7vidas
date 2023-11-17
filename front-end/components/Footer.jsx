@@ -45,24 +45,28 @@ export default function Footer() {
         </nav>
         <nav className="flex gap-3 text-lg md:text-2xl text-[#324b50]">
           <Link
+            target="_blank"
             href={"https://www.facebook.com/pousada7vidas"}
             className="bg-[#324b50] rounded p-1 text-[#EAE7D6] hover:scale-125 transition-all duration-500 hover:bg-[#eae7d6] hover:text-[#324b50]"
           >
             <FaFacebook />
           </Link>
           <Link
+            target="_blank"
             href={"https://www.airbnb.com.br/users/show/380720260"}
             className="bg-[#324b50] rounded p-1 text-[#EAE7D6] hover:scale-125 transition-all duration-500 hover:bg-[#eae7d6] hover:text-[#324b50]"
           >
             <FaAirbnb />
           </Link>
           <Link
+            target="_blank"
             href={"https://www.instagram.com/pousada7vidas/"}
             className="bg-[#324b50] rounded p-1 text-[#EAE7D6] hover:scale-125 transition-all duration-500 hover:bg-[#eae7d6] hover:text-[#324b50]"
           >
             <FaInstagram />
           </Link>
           <Link
+            target="_blank"
             href={
               "https://www.tripadvisor.com.br/Hotel_Review-g1192094-d23591780-Reviews-Pousada_7_Vidas-Imbituba_State_of_Santa_Catarina.html"
             }

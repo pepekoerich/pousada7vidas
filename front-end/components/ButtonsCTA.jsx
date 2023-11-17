@@ -9,7 +9,7 @@ export default function ButtonsCTA({
 }) {
   return (
     <>
-      <Link href={link1}>
+      <Link href={link1} target="_blank">
         <button className="border border-[#4A6D73] bg-[#4a6d73] px-3 py-[4px] text-xl text-white hover:scale-105 transition duration-500 tracking-widest shadow-lg hover:shadow-xl h-12 w-auto">
           {title1}
         </button>
