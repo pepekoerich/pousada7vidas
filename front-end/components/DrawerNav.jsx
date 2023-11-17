@@ -61,19 +61,19 @@ export default function DrawerNav() {
             Home
           </Link>
           <Link
-            href="/"
+            href="/about"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
           >
             Sobre
           </Link>
           <Link
-            href="/"
+            href="/accommodations"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
           >
             Acomodações
           </Link>
           <Link
-            href="/"
+            href="/about/#contact"
             className="hover:scale-110 hover:font-semibold transition duration-500 hover:translate-x-6 "
           >
             Contato
