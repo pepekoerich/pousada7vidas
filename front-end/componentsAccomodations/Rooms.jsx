@@ -93,7 +93,7 @@ const Rooms = () => {
               <h3 className="text-3xl font-bold mb-2">{room.name}</h3>
               <p className="mb-4 text-xl">{room.description}</p>
 
-              <div className="flex flex-col text-center gap-3 mb-4">
+              <div className="flex flex-col lg:flex-row text-center gap-3 mb-4">
                 <Link
                   href={room.link || "#"}
                   target="_blank"
