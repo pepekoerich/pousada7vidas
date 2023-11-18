@@ -13,7 +13,7 @@ export const metadata = {
   description:
     "Descubra a Pousada 7 Vidas na deslumbrante Lagoa de Ibiraquera. Conforto, natureza e tranquilidade em um só lugar.",
   image: "/foto28",
-  url: "https://pousada7vidas.com.br",
+  url: "https://www.pousada7vidas.com.br",
   type: "website",
   twitterCard: "/foto28",
   twitterTitle: "Pousada 7 Vidas - Lagoa de Ibiraquera",

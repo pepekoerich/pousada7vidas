@@ -31,8 +31,8 @@ export default function Pricing() {
     },
     {
       icon: <PiTelevisionSimple className="h-8 w-8" />,
-      title: "TV a cabo",
-      description: "TV a cabo compartilhada.",
+      title: "TV Compartilhada",
+      description: "Netflix, Youtube, HBO Max.",
     },
   ];
 
