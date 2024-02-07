@@ -7,14 +7,13 @@ export default function PricingCard() {
     "Suporte ao Hóspede",
     "Limpeza de Quarto",
     "Acesso à Piscina",
-    "Cozinha",
+    "Cozinha de Apoio",
   ];
   const secondAmmenities = [
     "Estacionamento",
     "Acesso à Lagoa",
     "Frigobar",
     "Varanda Privada",
-    "Serviços de Concierge",
   ];
 
   return (
